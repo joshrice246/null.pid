@@ -63,10 +63,13 @@ void competition_initialize() {}
  * from where it left off.
  */
 void autonomous() {
-   drivePID(800);   // drive forward
-    pros::delay(200);
-
-    turnPID(90);     // turn 90°
+   drivePID(200);  
+    pros::delay(100);
+    turnPID(70);  
+	pros::delay(100);
+	intake.move(127);
+	drivePID(1400);  
+	
 	
 }
 
