@@ -4,6 +4,7 @@ hi welcome to null.pid
 pid values are in pid.cpp
 and the robot config (bot dimensions and motors) are in robotconfiguration.cpp
 both have a h and a hpp file
+you will find these under src and include folders
 
 before touching the pid make sure all your motors are set to the correct ports in the robotconfiguration.cpp or your pid will not work 
 
