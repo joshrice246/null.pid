@@ -1,4 +1,4 @@
-~hi welcome to null.pid~
+~hi welcome to null.pid
 
 --for starters--
 .pid values are in pid.cpp
