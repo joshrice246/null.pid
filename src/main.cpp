@@ -1,7 +1,5 @@
 //hey welcome to null.pid 
-//pid values are in pid.cpp
-//and robot configuration is in robotconfig.cpp
-
+//read the readme for more info on how to use this code and how it works
 
 
 #include "main.h"

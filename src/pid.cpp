@@ -1,6 +1,8 @@
 #include "robotconfig.hpp"
 #include <cmath>
 
+
+//tune these values including the ones on line 11-14
 // Drive PID constants
 double drive_kP = 0.5;
 double drive_kI = 0.0;
@@ -9,7 +11,7 @@ double drive_kD = 2.5;
 // Turn PID constants
 double turn_kP = 2.0;
 double turn_kI = 0.05;
-double turn_kD = 4.5;
+double turn_kD = 4.5;   //<--- this value is set to 4.5 by defualt so 70 in aut is == to 90 degrees irl currently so its always 20 less
 
 
 // Reset encoders
