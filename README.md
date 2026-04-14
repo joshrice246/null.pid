@@ -10,7 +10,7 @@ you will find these under src and include folders
 
 before touching the pid make sure all your motors are set to the correct ports in the robotconfiguration.cpp or your pid will not work 
 
-for pid tuning set all values to 0 for driving increase p value till the bot moves side to side very slightly then increase d value to smooth it out 
+for pid tuning set all values (kp ki kd) to 0 for driving increase p value till the bot moves side to side very slightly then increase d value to smooth it out 
 if d value is to high the values for moving foward will be either lower or higher than your exspected outcome
 
 for turning pid repeat the same proccess as above 
